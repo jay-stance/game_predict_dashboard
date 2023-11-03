@@ -2,7 +2,7 @@ import axios from "../lib/axios"
 
 export const adminLoginService = async({ email, password, username }) => {
     try {
-        const res = await axios.post("/auth/admin-login", { username, email, password })
+        const res = await axios.post("/auth/admin-login", { email, password });
         return res.data
     } catch (error) {
         console.log("error signing in admin \b\b", error)

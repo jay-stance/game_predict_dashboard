@@ -1,0 +1,20 @@
+.appChart {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_chart {
+    height: 400px;
+    /* padding-bottom: 30px; */
+}
+
+.tags {
+    margin-top: 20px;
+    display: flex;
+}
+
+@media screen and (max-width: 650px) {
+    .main_chart {
+        height: 300px;
+    }
+}

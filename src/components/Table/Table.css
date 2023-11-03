@@ -1,0 +1,41 @@
+.rdt_TableRow {
+    padding: 4px;
+    color: var(--maain_white) !important;
+}
+
+.rdt_TableCell {
+    padding: 4px;
+    color: var(--text_main);
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 700;
+}
+
+.rdt_TableHeadRow {
+    padding: 4px;
+    color: var(--text_main);
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    border-bottom: 1px solid var(--text_main) !important;
+}
+
+.rdt_Pagination {
+    padding: 10px;
+}
+
+.rdt_Pagination span {
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    color: var(--text_main) !important;
+}
+
+.filter-text {
+    font-size: 18px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    color: var(--text_main) !important;
+    border-bottom: 2px solid black !important;
+    /* background-color: red !important; */
+}

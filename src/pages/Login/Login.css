@@ -1,0 +1,16 @@
+.Login_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main_login {
+    width: 500px;
+    max-width: 90%;
+}
+
+.btn_container {
+    margin-top: 70px;
+}

@@ -1,0 +1,24 @@
+.cards {
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-gap: 2rem;
+    column-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    background-color: var(--bg);
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.charts {
+    margin: 20px 0;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: var(--white); */
+    margin-top: 20px;
+}

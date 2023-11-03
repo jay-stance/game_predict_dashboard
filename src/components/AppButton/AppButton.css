@@ -1,0 +1,33 @@
+.main_btn {
+    width: auto;
+    padding: 13px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--poppins);
+    border-radius: 5px;
+    background-color: var(--main_bg);
+    color: var(--secondary_white);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid var(--main_bg);
+    transition: 0.2s all ease-in-out;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); */
+    transition: 0.3s all ease-in-out;
+}
+
+.main_btn:hover {
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.3);
+}
+
+.inverted {
+    background-color: var(--secondary_white);
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s all ease-in-out;
+    color: var(--main_bg);
+}
+
+.large_btn {
+    padding: 10px 40px;
+}

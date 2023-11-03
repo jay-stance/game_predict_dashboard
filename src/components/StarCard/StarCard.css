@@ -1,0 +1,30 @@
+.starCard {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    max-width: 350px;
+    /* max-width: 700px; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    /* Add border top */
+}
+
+.starCard.active {
+    border-top: 10px solid var(--main_bg);
+    border-left: 00px solid var(--main_bg);
+}
+
+.star_icon {
+    font-size: 30px;
+    color: var(--main_bg);
+    margin-right: 5px;
+}
+
+.starCard .stars {
+    margin-bottom: 20px;
+}

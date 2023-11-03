@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,500;1,100;1,200;1,600&display=swap");
+:root {
+    /* main color */
+    --main_bg: #5c59e8;
+    --main_bg_inv: #f0effd;
+    --sec_bg: #faf9fe;
+    --secondary_bg_hlight: #a3a0fb;
+    /* white color */
+    --main_white: #ffffff;
+    --secondary_white: #f0f0f7;
+    --poppins: "Poppins", sans-serif;
+    /* text color */
+    --text_main: #747684;
+    --text_white: #ffffff;
+    --white: #ffffff;
+    --black: #000;
+}
+
+* {
+    padding: 9;
+    margin: 0;
+    box-sizing: border-box;
+}

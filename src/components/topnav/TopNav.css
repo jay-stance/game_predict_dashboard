@@ -1,0 +1,39 @@
+.TopNav {
+    height: 100%;
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    z-index: 99999999 !important;
+}
+
+.bell_icon {
+    font-size: 25px !important;
+    cursor: pointer;
+}
+
+.topnav_right {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    position: relative;
+}
+
+.notification_count {
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 10px;
+    color: var(--main_white);
+    border-radius: 10px;
+    background-color: red;
+}
+
+.topnav_right a {
+    z-index: 999999 !important;
+}

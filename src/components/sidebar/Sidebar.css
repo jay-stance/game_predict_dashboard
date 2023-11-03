@@ -1,0 +1,26 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    height: 100vh;
+}
+
+.user_card {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    /* padding-left: 20px; */
+    padding-top: 50;
+}
+
+.profile_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.sidebar__menu {
+    width: 100%;
+    margin-top: 30px;
+}

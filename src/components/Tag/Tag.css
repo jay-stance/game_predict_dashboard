@@ -1,0 +1,11 @@
+.tag {
+    padding: 4px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: var(--main_bg_inv);
+    cursor: pointer;
+}
+
+.active_tag {
+    background-color: var(--main_bg);
+}
